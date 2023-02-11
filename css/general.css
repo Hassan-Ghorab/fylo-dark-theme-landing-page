@@ -1,0 +1,125 @@
+:root {
+  --intro-background: hsl(217, 28%, 15%);
+  --main-background: hsl(218, 28%, 13%);
+  --testimonials-background: hsl(219, 30%, 18%);
+  --footer-background: hsl(216, 53%, 9%);
+  --white-color: hsl(0, 0%, 100%);
+  --dark-white-color: rgb(255, 255, 255, 0.7);
+  --cyan-color: hsl(176, 68%, 64%);
+  --blue-color: hsl(198, 60%, 50%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.7rem hsl(196, 40%, 50%) !important;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: var(--white-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0.9rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #f6f6f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue-color);
+  border-radius: 1000px;
+  height: 18rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--cyan-color);
+}
+
+/***************************/
+/* HELPER CLASSES */
+/***************************/
+.primary-heading {
+  font-size: 4rem;
+  line-height: 1.8;
+}
+
+.secondary-heading {
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+.sub-heading {
+  color: var(--white-color);
+  font-size: 1.4rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.large-btn {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  padding: 1.8rem 10rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: 1px solid var(--blue-color);
+  border-radius: 1000px;
+  transition: all 0.5s;
+}
+
+.large-btn:hover {
+  background-color: var(--cyan-color);
+  border-color: var(--cyan-color);
+}
+
+.main {
+  background-color: var(--main-background);
+  line-height: 0;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive-grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
