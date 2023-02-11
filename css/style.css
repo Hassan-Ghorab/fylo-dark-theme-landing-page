@@ -115,14 +115,15 @@
 }
 
 .how-works-link {
+  display: inline-block;
+  width: fit-content;
   color: var(--cyan-color);
   padding-bottom: 0.7rem;
   font-size: 1.6rem;
   display: flex;
   align-items: center;
-  width: 16.9rem;
-  border-bottom: 1px solid var(--cyan-color);
   transition: all 0.5s;
+  border-bottom: 1px solid #65e2d9;
 }
 
 .how-works-link a {

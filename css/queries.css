@@ -122,10 +122,15 @@
 
   .input-email,
   .cta-container .large-btn {
-    width: 100%;
-    margin-right: 0;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 3rem;
   }
+
+  .cta-form-container:hover::after {
+    width: auto;
+}
 
   .footer-nav {
     flex-direction: column;
