@@ -5,7 +5,7 @@
 This is the second challenge from Frontend Menoter <br>
 it's an HTML &amp; CSS landing page task to test abilities.
 
-# [Live Demo](https://hassan-ghorab.github.io/Hassan-Ghorab-Frontend-Mentor-huddle-landing-page-with-curved-sections/)
+# [Live Demo](https://hassan-ghorab.github.io/fylo-dark-theme-landing-page/)
 
 ### [Chanllenge Page](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2)
 
