@@ -109,7 +109,7 @@
 
   .cta-container {
     max-width: 90vw;
-    padding: 2rem;
+    padding: 2rem 2rem 4rem;
   }
 
   .cta-container .secondary-heading {
@@ -123,10 +123,15 @@
   .input-email,
   .cta-container .large-btn {
     width: 30rem;
-    margin-left: auto;
-    margin-right: auto;
+  }
+
+  .input-email {
     margin-bottom: 3rem;
   }
+
+  .cta-form-container {
+    min-height: auto;
+}
 
   .cta-form-container:hover::after {
     width: auto;
@@ -192,6 +197,17 @@
   .service-text .how-works-link {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .input-email,
+  .cta-container .large-btn {
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .input-email{
+    margin-bottom: 3rem;
   }
 }
 
