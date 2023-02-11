@@ -7,9 +7,9 @@ it's an HTML &amp; CSS landing page task to test abilities.
 
 # [Live Demo](https://hassan-ghorab.github.io/fylo-dark-theme-landing-page/)
 
-### [Chanllenge Page](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2)
+### [Chanllenge Page](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd)
 
-### [My Solutions](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-1X3EjyqV5u)
+### [My Solutions](https://www.frontendmentor.io/solutions/fylo-dark-theme-landingpage-using-html-css-flexbox-css-grid-lgd4ZKXo_l)
 
 ### Technologies:
 - HTML
